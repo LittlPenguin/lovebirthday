@@ -138,7 +138,7 @@ $(() => {
             }
             $('.container6').children('p').eq(0).text($('.container6').children('p').eq(0).text() + row[i])
             i++
-        }, 400)
+        }, 300)
     })
     function lygwz() {
         var j = 0
@@ -149,7 +149,7 @@ $(() => {
             }
             $('.container6').children('div').text($('.container6').children('div').text() + row1[j])
             j++
-        }, 400)
+        }, 300)
     }
     function lygwz1() {
         var m = 0
@@ -160,7 +160,7 @@ $(() => {
             }
             $('.container6').children('p').eq(1).text($('.container6').children('p').eq(1).text() + row2[m])
             m++
-        }, 400)
+        }, 300)
     } function lygwz2() {
         var n = 0
         var wnzj = setInterval(() => {
@@ -169,6 +169,6 @@ $(() => {
             }
             $('.container6').children('p').eq(2).text($('.container6').children('p').eq(2).text() + row3[n])
             n++
-        }, 400)
+        }, 300)
     }
 })
