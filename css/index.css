@@ -826,6 +826,7 @@ body::-webkit-scrollbar-track {
     width: 100vw;
     height: 100vh;
     transition: background .5s ease-in;
+    display: none;
 }
 
 
